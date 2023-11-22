@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: Tahoma, "Trebuchet MS", sans-serif;
@@ -6,22 +9,42 @@ body{
     margin: 10px;
 }
 
+header {
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1621618658133-5c496b2fe4b0?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+
+h1 {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    font-size: 30px;
+}
+
 .container {
     display: flex;
-    align-items: center; 
-   padding-left: 10px;
+    justify-content: space-between
+    
   }
-img {
-    height: 500px;
-    width: 500px;
+
+  img {
+    height: 300px;
+    width: 300px;
     border-radius: 30px;
-    margin: auto;
-    float: left;
-    padding: 5px;
-}
+  }
+
+  .container p{
+    display: block;
+    margin: 0 auto;
+    
+  }
 
 
-iframe {
-    height: 600px;
-    width: 600px;
-}
