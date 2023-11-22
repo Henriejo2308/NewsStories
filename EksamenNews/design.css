@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: #f4f4f4;
   color: #333;
+  line-height: 1.5;
 }
 
 header {
@@ -28,7 +29,19 @@ article {
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  flex-wrap: wrap;
+  gap: 20px;
 }
+
+.tiktok-embed {
+  max-width: 100px;
+  min-width: 300px;
+}
+
+.tiktok-video-container {
+  width: 100%;
+}
+
 
 article:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
