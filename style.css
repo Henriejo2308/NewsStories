@@ -24,16 +24,20 @@ h1 {
     color: white;
 }
 
-p {
+section {
     font-family: Tahoma, "Trebuchet MS", sans-serif;
     font-size: 30px;
+    background-color: lightgrey;
 }
 
 .container {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 5px;
+    margin: 50px;
     
   }
+  
 
   img {
     height: 300px;
@@ -41,10 +45,5 @@ p {
     border-radius: 30px;
   }
 
-  .container p{
-    display: block;
-    margin: 0 auto;
-    
-  }
 
 
