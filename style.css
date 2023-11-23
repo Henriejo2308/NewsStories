@@ -1,21 +1,28 @@
 html {
     scroll-behavior: smooth;
+    
 }
 
 body{
     font-family: Tahoma, "Trebuchet MS", sans-serif;
     font-size: 30px;
-    padding: 5px;
-    margin: 10px;
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    background-image: url('https://i.stack.imgur.com/kx8MT.gif');
+    background-size: cover;
 }
 
 header {
-    height: 500px;
+    height: 300px;
     justify-content: center;
     display: flex;
     align-items: center;
     background-image: url("https://images.unsplash.com/photo-1621618658133-5c496b2fe4b0?q=80&w=3544&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-size: cover;
+
 }
 
 h1 {
@@ -24,17 +31,20 @@ h1 {
     color: white;
 }
 
-section {
+p {
     font-family: Tahoma, "Trebuchet MS", sans-serif;
-    font-size: 30px;
     background-color: lightgrey;
+    text-align: center;
+    margin: 50px;
+
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 5px;
-    margin: 50px;
+    padding: 20px;
+
+
     
   }
   
@@ -43,7 +53,15 @@ section {
     height: 300px;
     width: 300px;
     border-radius: 30px;
+    margin: 30px;
   }
 
+  .pris {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    color: red;
+  }
 
 
