@@ -46,6 +46,7 @@ article {
   background-size: cover;
   background-position: center center;  
   align-items: center;
+  grid-row: span;
 }
 
 
