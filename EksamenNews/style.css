@@ -11,7 +11,7 @@ body{
     background-attachment: fixed;
     height:100%;
     width:100%;
-    background-image: url('bilder2/handleny.MP4');
+    background-image: url('handleny.MP4');
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ header {
     justify-content: center;
     display: flex;
     align-items: center;
-    background-image: url("bilder2/header.JPG   ");
+    background-image: url("header.JPG   ");
     background-size: cover;
 
 }
