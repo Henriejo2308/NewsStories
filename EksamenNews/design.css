@@ -18,6 +18,22 @@ h1 {
   margin: 0;
 }
 
+.section1,
+.section2,
+.section3,
+.section4 {
+  grid-row: auto;
+  max-width: 100%;
+}
+
+.ingress {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 
 main {
   display: grid;
