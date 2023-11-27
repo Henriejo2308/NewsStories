@@ -16,13 +16,13 @@ header {
   padding: 20px;
   font-size: 150%;
   text-align: center;
-  width: 80%; /* Match the width of the .main container */
-  max-width: 800px; /* Adjust the max-width according to your preference */
+  width: 80%; 
+  max-width: 800px; 
 }
 
 .container {
   display: grid;
-  grid-template-rows: auto 1fr; /* Header takes auto height, and main takes the remaining space */
+  grid-template-rows: auto 1fr; 
 }
 
 
