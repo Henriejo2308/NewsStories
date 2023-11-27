@@ -18,6 +18,7 @@ h1 {
   margin: 0;
 }
 
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -134,7 +135,6 @@ ul {
   margin-inline: auto;
 }
 
-/* line */
 ul::before {
   content: "";
   grid-column: 1;
@@ -143,14 +143,10 @@ ul::before {
   border-radius: calc(var(--line-w) / 2);
 }
 
-/* columns*/
-
-/* row gaps */
 ul li:not(:last-child) {
   margin-bottom: var(--row-gap);
 }
 
-/* card */
 ul li {
   grid-column: 2;
   --inlineP: 1.5rem;
@@ -160,7 +156,6 @@ ul li {
   grid-template-rows: min-content min-content min-content;
 }
 
-/* date */
 ul li .date {
   --dateH: 3rem;
   height: var(--dateH);
@@ -180,7 +175,6 @@ ul li .date {
   border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
 }
 
-/* date flap */
 ul li .date::before {
   content: "";
   width: var(--inlineP);
@@ -194,7 +188,6 @@ ul li .date::before {
   right: 0;
 }
 
-/* circle */
 ul li .date::after {
   content: "";
   position: absolute;
@@ -209,7 +202,6 @@ ul li .date::after {
   right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
 
-/* title descr */
 ul li .title,
 ul li .descr {
   background: var(--bgColor);
@@ -227,7 +219,6 @@ ul li .descr {
   font-weight: 300;
 }
 
-/* shadows */
 ul li .title::before,
 ul li .descr::before {
   content: "";
@@ -263,7 +254,6 @@ ul li .descr::before {
     grid-column: 3;
   }
 
-  /* start second card */
   ul li:nth-child(2) {
     grid-row: 2/4;
   }
